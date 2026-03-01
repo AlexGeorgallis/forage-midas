@@ -35,7 +35,7 @@ public class TaskFiveTests {
         for (String transactionLine : transactionLines) {
             kafkaProducer.send(transactionLine);
         }
-        Thread.sleep(2000);
+        Thread.sleep(10000);
 
         logger.info("----------------------------------------------------------");
         logger.info("----------------------------------------------------------");
